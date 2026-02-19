@@ -583,6 +583,40 @@ blockquote {
   padding-left: 20px;
 }
 
+.legal-wrap h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.legal-wrap .highlight {
+  background: color-mix(in oklab, var(--primary-muted) 60%, transparent);
+  border-left: 4px solid var(--primary);
+  padding: 16px 20px;
+  margin: 20px 0;
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  color: var(--text);
+}
+
+.legal-wrap .warning {
+  background: rgba(255, 69, 0, 0.12);
+  border-left: 4px solid var(--accent);
+  padding: 16px 20px;
+  margin: 20px 0;
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  color: var(--text);
+}
+
+.legal-wrap a {
+  color: var(--secondary-light);
+  text-decoration: none;
+}
+
+.legal-wrap a:hover {
+  text-decoration: underline;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .hero-copy,
   .hero-preview,
